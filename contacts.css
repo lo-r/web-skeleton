@@ -10,40 +10,26 @@ header, footer {
     padding: 20px 0;
 }
 
-main {
+.contacts-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 20px;
 }
 
-.contact-form, .contact-info {
-    width: 45%;
+.contact-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
     text-align: left;
 }
 
-form label {
-    display: block;
-    margin-top: 10px;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ddd;
-    box-sizing: border-box;
-}
-
-form button {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-form button:hover {
-    background-color: #0056b3;
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
 }
